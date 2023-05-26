@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Likhar\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express ejs express-ejs-layout
+
+PATH: 
+  C:\Users\Likhar\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Likhar\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python310\Scripts;C:\Python310;C:\Python39\Scripts;C:\Python39;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Windows\IsmFiles;C:\ProgramData\chocolatey\bin;C:\ProgramData\ComposerSetup\bin;G:\xampp\php;E:\xampp\php;E:\xampp\php;C:\Program Files\Java\jdk-18.0.1.1\BIN;C:\Program Files\Git\cmd;C:\Program Files\VisualSVN Server\bin;C:\Users\Likhar\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\MinGW\bin;C:\Program Files\nodejs;C:\Users\Likhar\AppData\Local\Microsoft\WindowsApps;C:\Users\Likhar\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\Likhar\AppData\Local\atom\bin;C:\Users\Likhar\AppData\Roaming\Composer\vendor\bin;C:\Users\Likhar\AppData\Local\Programs\Microsoft VS Code\bin;E:\xampp\php;C:\Program Files\JetBrains\PyCharm 2021.3.3\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\heroku\bin;C:\Users\Likhar\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Likhar\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express-ejs-layout: Not found
+      at Request.params.callback [as _callback] (C:\Users\Likhar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\Likhar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Users\Likhar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Users\Likhar\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "realtime-pizza",
+    "version": "1.0.0",
+    "description": "This is our realtime pizza app",
+    "main": "index.js",
+    "author": "sarika likhar",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
