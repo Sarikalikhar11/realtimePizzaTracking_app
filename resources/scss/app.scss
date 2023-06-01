@@ -1,4 +1,7 @@
 @import './variables';
+// @import 'node_modules/noty/src/noty.scss';
+// @import 'node_modules/noty/src/themes/mint.scss';
+@import '~toastr/toastr';
 
 body {
   font-family: 'font-family: ' Lato ', sans-serif';
@@ -32,6 +35,9 @@ section.hero {
     border-color: $pure;
     color: $pure;
   }
+  &:focus {
+    outline: none;
+  }
 }
 .btn-primary {
   background: $primary;
@@ -56,3 +62,7 @@ section.login {
     }
   }
 }
+// .noty_theme_mint {
+//   border-radius: 50px !important;
+//   padding-left: 8px !important;
+// }
